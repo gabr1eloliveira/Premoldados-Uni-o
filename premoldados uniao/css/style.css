@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url(home.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(produto.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+span{
+    font-weight: 700;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 1000;
+  font-size: 4rem;
+  color: rgb(78, 197, 78);
+}
+
+.whatsapp-float:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.8s;
+}
+
+@media  screen and (max-width: 750px){
+    .whatsapp-float{
+        bottom: 10px;
+        right: 10px;
+    }
+}

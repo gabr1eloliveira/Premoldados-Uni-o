@@ -1,0 +1,214 @@
+
+/*Conteudo do Site*/
+
+#background{
+    width: 100vw;
+    height: 400px;
+    background-image: url(background/bloco\ 02.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.1);
+}
+
+#logo-background {
+    height: 90px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 50% 50% 0px 0px;
+}
+
+.titulo{
+    font-size: 4rem;
+    color: white;
+    font-weight: 700;
+}
+
+.descrição_background{
+    color: white;
+    font-size: 0.8rem;
+}
+
+#orçamento-btn{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: rgb(255, 136, 0);
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.1);
+}
+
+#orçamento-btn:hover{
+    background-color: rgb(199, 120, 29);
+    box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.1);
+}
+
+#orçamento-btn a{
+    font-size: 0.7rem; 
+    font-weight: 500;     
+    color: white;
+    text-decoration: none;
+}
+
+/*media para smartphone*/
+@media screen  and (max-width: 800px){
+    .titulo{
+        font-size: 2.8rem;
+        padding: 10px;
+    }
+
+    .descrição_background{
+        font-size: 1.1rem;
+    }
+
+    #orçamento-btn{
+        padding: 20px; 
+    }
+
+    #orçamento-btn a{
+        font-size: 0.9rem;
+    }
+
+    #logo-background{
+        display: none;
+    }
+}
+
+/*apresentação dos produtos*/
+
+#produtos-amostra{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;   
+}
+
+.produtos_amostra img{
+    width: 290px;
+    height: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#serviços h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+#serviços p{
+    color: black;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+/*Media para smartphone*/
+@media screen and (max-width: 800px){
+    #produtos-amostra{
+        flex-direction: column;   
+    }
+
+    #produtos-amostra p{
+        font-size: 1.3rem;
+    }
+
+    #serviços h2{
+        padding: 14px;
+    }
+
+    #serviços p{
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+}
+/*Sobre Nós*/
+
+#about{
+    margin-top: 15%;
+}
+
+#sobre-nos{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+#conteudo-about{
+    color: black;
+    width: 26%;
+    margin-right: 35px;
+}
+
+#conteudo-about h1{
+    margin-top: 25px;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo-about p{
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+#about-btn{
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: rgb(255, 136, 0);
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.1);
+}
+
+#about-btn:hover{
+    background-color: rgb(199, 120, 29);
+    box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.1);
+}
+
+#about-btn a{
+    font-size: 0.8rem; 
+    font-weight: 500;     
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px){
+
+    #sobre-nos{
+        flex-direction: column;
+    }
+
+    #logo-about img{
+        display: none;
+    }
+
+    #conteudo-about{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #conteudo-about h1{
+        font-size: 2.2rem;
+    }
+
+    #conteudo-about p{
+        font-size: 1rem;
+    }
+
+    #about-btn{
+      padding: 20px 5px;  
+    }
+
+    #about-btn a{
+        font-size: 0.9rem;
+    }
+}
