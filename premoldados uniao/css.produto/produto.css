@@ -1,12 +1,9 @@
 
-#blocos-concreto{
-    display: flex;
-    justify-content: center;
-}
 
-#blocos-img{
+#blocos-img {
     display: flex;
-    width: 55vw;
+    justify-content: space-around;
+    margin-top: 10%;
 }
 
 #blocos-concreto p{
@@ -14,8 +11,23 @@
 }
 
 .blocos img{
-    width: 250px;
-    height: 250px;
-    border-radius: 15px;
+    width: 270px;
+    height: 320px;
+    border-radius: 14px;
 }
+
+.bloco_btn{
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    padding: 12px;
+    background-color: black;
+    border
+}
+
+.bloco_btn a{
+    
+    text-decoration: none;
+}
+
 
